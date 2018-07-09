@@ -1,0 +1,17 @@
+@import "custom";
+// @import "~bootstrap/scss/bootstrap";
+
+$orange: #f98a09;
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  align-items: center;
+  background: $orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
