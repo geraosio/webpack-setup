@@ -1,17 +1,35 @@
 @import "custom";
-// @import "~bootstrap/scss/bootstrap";
-
-$orange: #f98a09;
+@import "~bootstrap/scss/bootstrap";
 
 body {
   margin: 0px;
   padding: 0px;
 }
 
-main {
-  align-items: center;
-  background: $orange;
+.navbar {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+
+  a {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .navbar-cta-container {
+    justify-content: flex-end;
+  }
+
+  .navbar-logo {
+    height: 30px;
+  }
+}
+
+.carousel {
+  height: 50vh;
+
+  img {
+    object-fit: cover;
+    height: 50vh;
+  }
 }

@@ -1,8 +1,6 @@
-# SOSAC A.C. website
-
-<!-- <img src="assets/img/logo.png" width=150px><img src="assets/img/sostelarac_font.png" width="500px"> -->
-
-SOSAC A.C. website redesign.
+# SOSAC A.C. website redesign
+<br>
+<img src="src/img/full-logo.png" height=150px>
 
 ## Background
 
