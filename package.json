@@ -31,11 +31,11 @@
     "img-loader": "^3.0.0",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.2",
-    "postcss-loader": "^2.1.5",
+    "postcss-loader": "^2.1.6",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
-    "webpack": "^4.15.1",
+    "webpack": "^4.16.0",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
@@ -43,7 +43,7 @@
     "last 2 versions"
   ],
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.1.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   }
