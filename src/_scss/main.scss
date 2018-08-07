@@ -1,29 +1,67 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
 
+/*-----------------------------------------------------------------------------
+  Globals
+-----------------------------------------------------------------------------*/
+
 body {
   margin: 0px;
   padding: 0px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: center;
 
-  a {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-  }
+main {
+  margin-top: 56px;
+}
 
-  .navbar-cta-container {
-    justify-content: flex-end;
-  }
 
-  .navbar-logo {
-    height: 30px;
+section,
+.container {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+@media screen and (max-width: 920px) {
+  section,
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
+
+
+
+
+
+/*-----------------------------------------------------------------------------
+  Header
+-----------------------------------------------------------------------------*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  .navbar-logo {
+    height: 24px;
+  }
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------
+  Main
+-----------------------------------------------------------------------------*/
+
+//
+// Carousel
+//
 
 .carousel {
   height: 50vh;
@@ -32,4 +70,10 @@ body {
     object-fit: cover;
     height: 50vh;
   }
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%; // Change from Bootstrap's 15%
 }
