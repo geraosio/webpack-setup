@@ -8,12 +8,22 @@
   <body>
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-light fixed-top bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="img/logo.png" class="navbar-logo" alt="SOSAC">
           </a>
-          <a class="btn btn-primary" href="#" role="button">Participa</a>
+          <button class="navbar-toggler justify-self-end" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <img src="img/menu.svg" alt="Menu">
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#home">Inicio</a>
+              <a class="nav-item nav-link" href="#services">Estrategias</a>
+              <a class="nav-item nav-link" href="#curriculum">Programas</a>
+              <a class="btn btn-primary" href="#" role="button">Participa</a>
+            </div>
+          </div>
         </div>
       </nav>
       <!-- /Navbar -->
